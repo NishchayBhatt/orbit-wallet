@@ -15,13 +15,6 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
     npx expo start
    ```
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
 
 
 ## Folder Structure
