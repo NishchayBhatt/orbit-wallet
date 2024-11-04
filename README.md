@@ -33,13 +33,12 @@ When you're ready, run:
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-
 
 ## Folder Structure
 ![OrbitwalletfolderStructure](https://github.com/user-attachments/assets/69864a8b-b38d-49b2-9a92-f6bcb250ff29)
-
+The folder structure might sound different than usual cause I try to follow seperations of concens. 
+1. Feature folder will have custom code part of the app. Lets say their is a special or a specific component requirerd and is not requirerd elsewhere
+2. Components or parts that are common to the whole app. i.e they can be used by the whole app will stay in source directory.
 
 
 ## API Structuring 
