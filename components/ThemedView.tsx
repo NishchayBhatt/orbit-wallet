@@ -1,4 +1,4 @@
-import { View, type ViewProps } from 'react-native';
+import { TextInput, TextInputProps, View, type ViewProps } from 'react-native';
 
 import { useThemeColor } from '@/hooks/useThemeColor';
 
@@ -12,3 +12,6 @@ export function ThemedView({ style, lightColor, darkColor, ...otherProps }: Them
 
   return <View style={[{ backgroundColor }, style]} {...otherProps} />;
 }
+
+
+
