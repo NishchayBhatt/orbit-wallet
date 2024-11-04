@@ -4,7 +4,6 @@ import { ThemedView } from '@/components/ThemedView'
 import { ThemedText } from '@/components/ThemedText'
 import { ThemedTextInput } from '@/components/ThemedTextInput'
 import { DiscoverImage, ListImages } from '@/feature/tabs/explore/explore'
-
 const explore = () => {
   const [search, setSearch] = useState<string>("")
   return (

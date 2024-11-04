@@ -4,7 +4,7 @@ import { useInfiniteFetch } from '@/hooks/useInfiniteFetch'
 import { ThemedView } from '@/components/ThemedView'
 import { ThemedText } from '@/components/ThemedText'
 import SizedImage from '@/components/SizedImage'
-import { infiniteImages } from '@/feature/tabs/index'
+import { infiniteImages } from '@/feature/tabs/index/indexApi'
 
 const Home = () => {
   const [offset, setOffset] = useState<number>(0)

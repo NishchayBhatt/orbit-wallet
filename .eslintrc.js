@@ -18,6 +18,7 @@ module.exports = {
           "hooks/**/*",
           "scripts/**/*",
           "utils/**/*",
+          "feature/**/*",
         ],
       },
       {

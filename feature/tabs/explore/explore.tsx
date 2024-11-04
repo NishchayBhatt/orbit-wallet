@@ -1,11 +1,11 @@
 import { FlatList, LayoutChangeEvent, StyleSheet, } from 'react-native'
 import React, { useState } from 'react'
 import { useFetch } from '@/hooks/useFetch'
-import { getListImages } from '@/data/tabs/explore'
-import { ThemedText } from '../ThemedText'
-import SizedImage from '../SizedImage'
-import { ThemedView } from '../ThemedView'
 import { getRandomInteger } from '@/utils/Math'
+import { getListImages } from './exploreApi'
+import { ThemedText } from '@/components/ThemedText'
+import { ThemedView } from '@/components/ThemedView'
+import SizedImage from '@/components/SizedImage'
 
 export const DiscoverImage = () => {
     const { data, isPending } = useFetch({
