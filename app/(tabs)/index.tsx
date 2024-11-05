@@ -36,7 +36,7 @@ const Home = () => {
     )
   }
   if (isPending) {
-    return <ThemedView>
+    return <ThemedView style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <ThemedText>{"Loading..."}</ThemedText>
     </ThemedView>
   }
